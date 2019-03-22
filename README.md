@@ -16,7 +16,7 @@ Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库�
 ```
 windows10
 python3.7
-kunpeng_c.dll
+kunpeng_c.dll //动态链接库请到kunpeng项目下载最新的
 ```
 ```python
 # coding:utf-8
@@ -98,3 +98,7 @@ with open("url.txt") as fp:hexo
         t1.start()  
 ```
 url列表放到url.txt下面，开启了多线程
+
+扫描结果
+
+![](./1.png)
