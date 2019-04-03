@@ -75,7 +75,7 @@ def callback():
 
 # 扫描目标
 # with open("ip.txt") as fp:
-with open("url.txt") as fp:hexo
+with open("url.txt") as fp:
     for item in fp.readlines():
         # print(item)
         task = {
